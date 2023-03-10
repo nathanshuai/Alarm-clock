@@ -1,0 +1,111 @@
+@import url(./reset.css);
+
+:root {
+  --app-dark-bg: #1a1d28;
+  --app-green: #33ab4e;
+  --app-purple: #833cff;
+  --app-orange: #ff833c;
+  --app-blue: #3c57ff;
+  --app-blue-hover: #364ee6;
+  --app-red: #ff3c57;
+  --app-red-hover: #ff2846;
+  --app-white:#fff;
+  --app-gray:#443f3f;
+}
+
+body {
+  background-color: var(--app-dark-bg);
+}
+
+/* clock
+*/
+
+.center {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.clock {
+  color: var(--app-white);
+  padding: 15px;
+  height: 100px;
+  font-size: 60px;
+  margin-left: 30px;
+}
+
+/*bell
+*/
+
+.bell {
+  margin-left: 10px;
+  display: flex;
+  height: 50px;
+  color: #fff;
+  font-size: 26px;
+}
+
+.bell i {
+  margin-top: 18px;
+  margin-left: 60px;
+  border-radius: 70px;
+  font-size: 20px;
+}
+.output {
+  text-align: center;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 16px;
+  border-radius: 70px;
+  font-size: 20px;
+}
+
+/*form */
+
+input[type=text]  {
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 16px 8px;
+  width: 140px;
+  height: 45px;
+  border-radius: 70px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 26px 30px -10px;
+  transition:  all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+button  {
+  margin-left: 20px;
+  width: 140px;
+  height: 45px;
+  border-radius: 70px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 800;
+  transition:  all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+button + button {
+  margin-left: 30px;
+}
+
+.set {
+  background-color: #33ab4e;
+}
+
+.set:hover {
+  background-color: #086e20;
+}
+
+input {
+  background-color: var(--app-gray);
+}
+
+.calms:hover {
+  border-color: #f3dfdf;
+  border: solid 2px;
+}
