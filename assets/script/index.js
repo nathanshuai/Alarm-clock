@@ -23,7 +23,7 @@ function formatTime(date) {
 function updateTime() {
   const now = new Date();
   clock.innerHTML = formatTime(now);
-}
+};
  
 // Call updateTime() every second
 setInterval(updateTime, 1000);
@@ -33,8 +33,8 @@ setInterval(() => {
   const now = new Date();
   const currentHours = now.getHours();
   const currentMinutes = now.getMinutes();
-  const setHours = parseInt(time.value.split(':')[0]);
-  const setMinutes = parseInt(time.value.split(':')[1]);
+  const setHours = parseInt(output.innerHTML.split(':')[0]);
+  const setMinutes = parseInt(output.innerHTML.split(':')[1]);
   if (currentHours === setHours && currentMinutes === setMinutes) {
     callSound.play();
   }
