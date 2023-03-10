@@ -1,6 +1,6 @@
 ### Hi there 👋 Welcome 
 
-Click [here]() to see my alarm clock.
+Click [here](https://nathanshuai.github.io/Alarm-clock/) to see my alarm clock.
 
 <br />
 
